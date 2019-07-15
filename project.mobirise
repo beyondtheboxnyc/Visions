@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Support The Visions",
-    "currentPage": "page1.html",
+    "name": "nyc Visions",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -9,7 +9,7 @@
         "primaryColor": "#0f97e9",
         "secondaryColor": "#28324e",
         "successColor": "#2969b0",
-        "infoColor": "#ffffff",
+        "infoColor": "#28324e",
         "warningColor": "#0c1881",
         "dangerColor": "#55bcfa",
         "titleFont": "Montserrat",
@@ -21,19 +21,19 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#3dc5f5",
         "#0f97e9",
         "#0c1881",
         "#ff0000",
         "#0f6ee9",
         "#232323",
-        "#55bcfa",
-        "#NaNNaNNaN"
+        "#55bcfa"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 82,
+    "uniqCompNum": 89,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-icons-lb-128x122.png",
@@ -56,18 +56,18 @@
           "_inherit": "menu",
           "_params": {
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#ffffff",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#28324e",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Vision 1</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Vision 1</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">2</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">3</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">4</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">5</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">6</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">7</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">8</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">9</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Vision 10</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -82,13 +82,13 @@
               "font-size": "10px"
             },
             ".navbar-toggler": {
-              "color": "#28324e"
+              "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#28324e"
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#28324e"
+              "color": "#ffffff"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -100,16 +100,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
-              "color": "#28324e",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -125,7 +125,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/11supprtvideions-280x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nycvisionswhite-754x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -137,79 +137,14 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://beyondtheboxinc.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">By<br>Beyond The Box R&amp;D, Inc</a>",
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://beyondtheboxinc.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">By Beyond The Box R&amp;D, Inc</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-21"
         },
         {
-          "_inherit": "msg-box5",
           "_params": {
-            "showTitle": true,
+            "showTitle": false,
             "showText": true,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": "20",
-            "paddingTop": "5",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ff0000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/531112-256x256.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "active": true
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "For Business - Not For Public",
-          "text": "<b>For IP and R&amp;D purposes, only invited visitors knew about this website. Our websites are not showing on the search engines, we're a B2B startup that invent projects and make deals with other companies or agencies, NOT&nbsp;individuals.&nbsp;</b>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-p",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff",
-              "font-size": "30px"
-            },
-            "P": {
-              "color": "#000000"
-            },
-            "B": {
-              "font-size": "15px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
             "showButtons": false,
             "inverse": false,
             "showArrow": true,
@@ -248,14 +183,70 @@
               "size": 250
             }
           },
-          "title": "Inventing solutions to revolutionary change the way New York City drives, walks, bikes, delivers ... and litters!",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "title": "<span style=\"font-weight: normal;\">nycVisions.online by BeyondTheBox R&amp;D, Inc</span>",
+          "text": "Continuing our R&amp;D to invent solutions, that will revolutionary change the way \"New York City\" drives, walks, bikes, delivers ... and litters!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header2",
-          "_anchor": "header2-m"
+          "_anchor": "header2-m",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "30px",
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-section-text": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "30px",
+              "text-align": "center"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            ".mbr-section-text B": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showCaption": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#0f97e9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "BACKGROUND IMAGE",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-2d"
         },
         {
           "_styles": {
@@ -289,7 +280,7 @@
             "showTitles": false,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false,
+            "showButtons": true,
             "paddingTop": "0",
             "paddingBottom": "1",
             "columns": "5",
@@ -387,11 +378,11 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to&nbsp;Vision 1</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 2</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 3</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 4</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 5</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
             "Theme"
@@ -413,7 +404,7 @@
             "showTitles": false,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false,
+            "showButtons": true,
             "paddingTop": "0",
             "paddingBottom": "4",
             "columns": "5",
@@ -511,11 +502,11 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 6</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 7</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 8</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 9</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary\" data-toolbar=\"-mbrBtnMove\">Go to Vision 10</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
             "Theme"
@@ -533,141 +524,103 @@
         },
         {
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-size": "30px"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#0f97e9"
+            ".mbr-section-title, p": {
+              "color": "#fff"
             }
           },
           "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#0f97e9"
+            "showTitle": false,
+            "showCaption": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#0f97e9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
           },
-          "title": "© All Rights Reserved by BeyondTheBox R&amp;D, Inc",
-          "meta": "© All Rights Reserved by BeyondTheBox R&amp;D, Inc<br>",
+          "title": "BACKGROUND IMAGE",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-b"
+          "_name": "content5",
+          "_anchor": "content5-2g"
         },
         {
+          "_inherit": "msg-box5",
           "_params": {
-            "showBullets": false,
-            "fullWidth": false,
-            "spacing": 0,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#FFFFFF",
-            "showText": false,
-            "filter": false,
-            "images": [
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/pic1-66-1765x993.png",
-                "thumb": "@PROJECT_PATH@/assets/images/pic1-66-1765x993-800x450.png",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/pic1-32-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/pic1-32-1280x720-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Creative",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/pic1-37-800x450.png",
-                "thumb": "@PROJECT_PATH@/assets/images/pic1-37-800x450-800x450.png",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/pic1-111-1765x993.png",
-                "thumb": "@PROJECT_PATH@/assets/images/pic1-111-1765x993-800x450.png",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/pic1-57-1765x993.png",
-                "thumb": "@PROJECT_PATH@/assets/images/pic1-57-1765x993-800x450.png",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Beautiful",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/pic1-120-1135x638.png",
-                "thumb": "@PROJECT_PATH@/assets/images/pic1-120-1135x638-800x450.png",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/pic1-52-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/pic1-52-1280x720-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/pic1-43-1280x720.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/pic1-43-1280x720-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              }
-            ]
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#0f97e9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
-          "articleLayout": false,
-          "allItem": "All",
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/110-1400x1103.png",
+              "link": "https://110thmayor.com/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": ",",
+          "text": "<p><b>Smart visions should be planned years in advance!\n<br></b></p><p>NYC visions gathering a bunch of great inventions, that will make New Yorkers life less stressful and will sustainably solve new york's most vexing problems, including the traffic congestion and the subway system which has become New York's embarrassing boondoggle.\n<br>But this - will not be going anywhere without political support, for that being said, we've picked Mr. Corey Johnson among dozens of New York's politicians to be endorsed for suggesting our solutions to New Yorkers during his mayoral campaign, we hope he'll accept our invitation.&nbsp;<br></p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-2"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-2e",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "36px"
+            },
+            "DIV": {
+              "font-size": "20px"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_styles": {
@@ -684,7 +637,7 @@
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#0f97e9",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -703,46 +656,6 @@
         },
         {
           "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "25px",
-              "color": "#ffffff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButton": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "This page is under construction,<br>Adam's doing his best to design all in a short time.<br>Only Adam bites off more than one can chew!\n",
-          "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-24"
-        },
-        {
-          "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
             },
@@ -750,14 +663,14 @@
               "color": "#ffffff"
             },
             ".mbr-section-title SPAN": {
-              "color": "#28324e"
+              "color": "#ffffff"
             }
           },
           "_params": {
             "showMeta": false,
             "paddingTop": "7",
             "paddingBottom": "2",
-            "bgColor": "#ffffff"
+            "bgColor": "#0f97e9"
           },
           "title": "<span style=\"font-weight: normal;\">&lt; website footer /&gt;</span>",
           "meta": "",
@@ -775,14 +688,14 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#0f97e9",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/1btb2020-128x51.png",
+              "src": "@PROJECT_PATH@/assets/images/btb2020white2-128x51.png",
               "width": 128,
               "active": true,
               "link": "",
@@ -795,22 +708,25 @@
               "size": 0
             }
           },
-          "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-4356531350<br>",
-          "text2": "<strong>Contacts</strong><br>Beyond The Box R&amp;D, Inc \n<br>175 Varick St. [WeWork] \n<br>New York, NY 10014 <br><br>Email: <b>contactbeyondthebox@gmail.com</b><br><br>Phone: <br>\"Please. only Text the Founder\"<br>at&nbsp;<b>+ 1 (347) 383-4942<br></b><br><b>For meetings</b>, please email us in advance to book a meeting room at 175 Varick St., New York City.<br>",
-          "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><b>www.beyondtheboxinc.com</b><br>",
+          "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
+          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\" class=\"text-info\">contact@beyondtheboxinc.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
+          "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\" class=\"text-info\">www.beyondtheboxinc.com</a><br>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
           "_styles": {
             "P": {
-              "color": "#28324e"
+              "color": "#ffffff"
             },
             "STRONG": {
               "color": "#28324e"
+            },
+            "B": {
+              "color": "#ffffff"
             }
           },
-          "_anchor": "contacts1-22"
+          "_anchor": "contacts1-2a"
         },
         {
           "_styles": {
@@ -821,13 +737,13 @@
           "_params": {
             "showTitle": false,
             "showCaption": false,
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#0f97e9",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -857,18 +773,18 @@
           "_inherit": "menu",
           "_params": {
             "logo": true,
-            "showBrand": false,
+            "showBrand": true,
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#ffffff",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#28324e",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Vision 1</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Vision 1</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">2</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">3</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">4</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">5</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">6</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">7</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">8</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">9</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Vision 10</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -883,13 +799,13 @@
               "font-size": "10px"
             },
             ".navbar-toggler": {
-              "color": "#28324e"
+              "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#28324e"
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#28324e"
+              "color": "#ffffff"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -901,16 +817,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
-              "color": "#28324e",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -926,7 +842,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/11supprtvideions-280x128.png",
+              "src": "@PROJECT_PATH@/assets/images/nycvisionswhite-754x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -938,7 +854,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://beyondtheboxinc.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">By<br>Beyond The Box R&amp;D, Inc</a>",
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://beyondtheboxinc.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">By Beyond The Box R&amp;D, Inc</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-21"
         },
@@ -984,7 +900,7 @@
               "size": 250
             }
           },
-          "title": "Inventions toenhance the way New York drives, delivers and get thier vehicles parked.&nbsp;",
+          "title": "Inventions to enhance the way New York drives, delivers and get vehicles parked.&nbsp;",
           "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">City Steam</a>  <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">City Delivery</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">City Parking</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">City Hydrant</a>",
           "_tags": [
@@ -1018,7 +934,7 @@
             "bgColor": "#fff"
           },
           "title": "City Steam",
-          "meta": "<b>City Steam are 4 creative and cost-effective projects to nail down the steam issues in New York City. </b>",
+          "meta": "<b>City Steam gathering 4 creative and cost-effective projects to nail down the steam issues in New York City. </b>",
           "_tags": [
             "Theme"
           ],
@@ -2586,14 +2502,14 @@
               "color": "#ffffff"
             },
             ".mbr-section-title SPAN": {
-              "color": "#28324e"
+              "color": "#ffffff"
             }
           },
           "_params": {
             "showMeta": false,
             "paddingTop": "7",
             "paddingBottom": "2",
-            "bgColor": "#ffffff"
+            "bgColor": "#0f97e9"
           },
           "title": "<span style=\"font-weight: normal;\">&lt; website footer /&gt;</span>",
           "meta": "",
@@ -2611,14 +2527,14 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#0f97e9",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/1btb2020-128x51.png",
+              "src": "@PROJECT_PATH@/assets/images/btb2020white2-128x51.png",
               "width": 128,
               "active": true,
               "link": "",
@@ -2631,19 +2547,22 @@
               "size": 0
             }
           },
-          "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-4356531350<br>",
-          "text2": "<strong>Contacts</strong><br>Beyond The Box R&amp;D, Inc \n<br>175 Varick St. [WeWork] \n<br>New York, NY 10014 <br><br>Email: <b>contactbeyondthebox@gmail.com</b><br><br>Phone: <br>\"Please. only Text the Founder\"<br>at&nbsp;<b>+ 1 (347) 383-4942<br></b><br><b>For meetings</b>, please email us in advance to book a meeting room at 175 Varick St., New York City.<br>",
-          "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><b>www.beyondtheboxinc.com</b><br>",
+          "text1": "<b>© 2019-2020 &nbsp;<br>All Rights Reserved \n<br>Beyond The Box R&amp;D, Inc</b> \n<br><br>Registered at the Department of State in New York State under ID #5345948\n<br>\n<br>Our customer number at the United States Patent and Trademark Office is #000162504<br><br>Our customer number at the United States Copyright\nOffice is #1-356531350<br>",
+          "text2": "<b>Contacts\n</b><br>\n<br>Beyond The Box R&amp;D, Inc\n<br>106 W 32nd St - [The Yard]\n<br>New York, NY 10001 \n<br>\n<br>Email: <a href=\"mailto:contactbeyondthebox@gmail.com\" class=\"text-info\">contact@beyondtheboxinc.com\n</a><br>\n<br>Phone: +&nbsp;1 (347) 383-4942\n<br>\"Please! Only text for a call back\"<br><br>For meetings, please email us in advance to book a meeting room at 106 W 32nd St, New York, NY 10001.<br>",
+          "text3": "<b>Go big or go home! \n<br></b>\n<br>\"For such a tiny company like us, picking the motto of \"go big or go home\" is definitely a gamble, but we will continue to invent the next big thing, no matter how much of an uphill battle is it\"<br><br>The Company Website:<br><a href=\"https://beyondtheboxinc.com\" target=\"_blank\" class=\"text-info\">www.beyondtheboxinc.com</a><br>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
           "_styles": {
             "P": {
-              "color": "#28324e"
+              "color": "#ffffff"
             },
             "STRONG": {
               "color": "#28324e"
+            },
+            "B": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "contacts1-22"
@@ -2657,13 +2576,13 @@
           "_params": {
             "showTitle": false,
             "showCaption": false,
-            "paddingTop": 3,
+            "paddingTop": "2",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#0f97e9",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
